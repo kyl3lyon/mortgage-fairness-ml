@@ -6,7 +6,7 @@
   * Kyle Lyon, `kylelyon@gwu.edu`
   * Charles Bloomer
   * Zeeshan Raza
-  * ZAM
+  * Ziyad Maknojia
 * **Model date**: May, 2022
 * **Model version**: 1.0
 * **License**: Apache
