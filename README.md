@@ -26,7 +26,7 @@
 
 * **Source of training data**: add text
 * **How training data was divided into training and validation data**: add num
-* **Number of rows in training and validation data**:
+* **Number of rows in training and validation data**: 
   * Training rows: add num
   * Validation rows: add num
 
@@ -47,5 +47,13 @@
 * **Hyperparameters or other settings of your model**: TBD
 
 ### Quantitative Analysis
+  * #### Week 1
+  * #### Week 2:
+      * Feature Importance Across Models
+      * 
+  * #### Week 3
+  * #### Week 4
+  * #### Week 5
+  * #### Week 6
 
 ### Ethical Considerations
