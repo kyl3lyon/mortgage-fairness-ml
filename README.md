@@ -17,7 +17,8 @@
 * **Primary intended users**: add text
 * **Out-of-scope use cases**: add text
 
-### Training Data
+### Training Data<img width="923" alt="image" src="https://user-images.githubusercontent.com/90147914/174262886-d52fc36a-2a49-4099-b950-ee69433be5f2.png">
+
 
 * **Data dictionary**:
 
@@ -50,7 +51,7 @@
   * #### Week 1
   * #### Week 2:
       * Feature Importance Across Models
-      * 
+      * ![Feature Importance](assignments/a02/a02_feature_importance.png)
   * #### Week 3
   * #### Week 4
   * #### Week 5
