@@ -12,10 +12,6 @@
 * **License**: Apache
 * **Model implementation code**: TBD
 
-### Relevant Context
-
-* add info here
-
 ### Intended Use
 * **Primary intended uses**: add text
 * **Primary intended users**: add text
@@ -34,12 +30,14 @@
   * Training rows: add num
   * Validation rows: add num
 
+### Evaluation Data
+
 ### Test Data
 * **Source of test data**: add text
 * **Number of rows in test data**: add num
 * **State any differences in columns between training and test data**: add text
 
-### Model details
+### Model Details
 * **Columns used as inputs in the final model**: add text
 * **Column(s) used as target(s) in the final model**: add text
 * **Type of models**: 
