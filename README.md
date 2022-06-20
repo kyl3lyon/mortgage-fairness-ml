@@ -56,6 +56,13 @@
          * ![Global Feature Importance](assignments/a02/a02_fi.png)
       * Partial Dependence
   * #### Week 3
+     * Grid Search Results Plot
+        * ![Grid Search](assignments/a04/grid_search_results.png)
+        * ![Best AUC and AIR](assignments/a04/best_auc-air.png)
+     * Best Model Hyperparameters
+        * ![Best Parameters](assignments/a04/a04_best_parameters.png)
+     * Best Model Features
+        * ![Best Model Features](assignments/a04/a04_best_parameters.png)
   * #### Week 4
   * #### Week 5
   * #### Week 6
