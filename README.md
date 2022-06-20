@@ -4,9 +4,9 @@
 
 * **Person or organization developing model**:
   * Kyle Lyon, `kylelyon@gwu.edu`
-  * Charles Bloomer
-  * Zeeshan Raza
-  * Ziyad Maknojia
+  * Charles Bloomer, `insert email`
+  * Zeeshan Raza, `zraza10@gwu.edu`
+  * Ziyad Maknojia, `zam@gwu.edu`
 * **Model date**: May, 2022
 * **Model version**: 1.0
 * **License**: Apache
@@ -64,6 +64,12 @@
      * Best Model Features
         * ![Best Model Features](assignments/a03/a03_best_parameters.png)
   * #### Week 4
+     * Model Extraction Attack
+        * ![Model Extraction Attack](assignments/a04/extraction_attack.png)
+     * Stolen Decision Tree Model
+        * ![Stolen Model](assignments/a04/decision_tree.png)
+     * Variable Importance: H20 Distributed Randomo Forest
+        * ![Variable Importance](assignments/a04/a04_variable_importance.png)
   * #### Week 5
   * #### Week 6
 
