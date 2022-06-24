@@ -14,7 +14,6 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 ### Basic Information
 * **Model date**: May, 2022
 * **Model version**: 1.0
-* **Model type**: Explainable Boosting Machine (EBM)
 * **License**: Apache
 * **Model implementation code**: TBD
 
@@ -40,7 +39,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 ### Evaluation Data
 
 ### Test Data
-* **Source of test data**: add text
+* **Source of test data**: Home Mortgage Disclosure Act (HMDA) Aggregate Lending Data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data) [[Website]](https://www.ffiec.gov/hmda/history2.htm)
 * **Number of rows in test data**: add num
 * **State any differences in columns between training and test data**: add text
 
@@ -49,7 +48,8 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    * `property_value_std`, `no_intro_rate_period_std`, `loan_amount_std`, `income_std`, `conforming`, `intro_rate_period_std`, `debt_to_income_ratio_std`, `term_360`
 * **Column(s) used as target(s) in the final model**: add text
 * **Type of models**: 
-  * add text 
+  * Explainable Boosting Machine (EBM)
+  * Decision Tree 
 * **Software used to implement the model**: add text
 * **Version of the modeling software**: TBD
 * **Hyperparameters or other settings of your model**:
