@@ -30,7 +30,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
 
-* **Source of training data**: add text
+* **Source of training data**: Home Mortgage Disclosure Act (HMDA) Aggregate Lending Data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data) [[Website]](https://www.ffiec.gov/hmda/history2.htm)
 * **How training data was divided into training and validation data**: add num
 * **Number of rows in training and validation data**: 
   * Training rows: add num
@@ -39,7 +39,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 ### Evaluation Data
 
 ### Test Data
-* **Source of test data**: Home Mortgage Disclosure Act (HMDA) Aggregate Lending Data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data) [[Website]](https://www.ffiec.gov/hmda/history2.htm)
+* **Source of test data**: add text
 * **Number of rows in test data**: add num
 * **State any differences in columns between training and test data**: add text
 
