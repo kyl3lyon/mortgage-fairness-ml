@@ -40,7 +40,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 | loan amount std | Numeric input | Measurement Level| standardized amount of the mortgage for applicants|
 | loan to value ratio std | Numeric input | Measurement Level| ratio of the mortgage size to the value of the property for mortgage applicants|
 | no intro rate period std | Binary numeric input | Measurement Level| whether or not a mortgage does not include an introductory rate period |
-| intro rate period std | Numeric input | standardized introductory rate period for mortgage applicants |
+| intro rate period std | Numeric input | Measurement Level | standardized introductory rate period for mortgage applicants |
 | property value std | Numeric input | Measurement Level| value of the mortgaged property |
 | income std | Numeric input | Measurement Level| standardized income for mortgage applicants |
 | debt to income ratio std | Numeric input | Measurement Level | standardized debt-to-income ratio for mortgage applicants |
