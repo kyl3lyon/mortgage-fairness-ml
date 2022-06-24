@@ -47,7 +47,6 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 | phat | Numeric input | Measurement Level| prediction probabilities of high-priced mortgage for mortgage applicants |
 | r | Numeric input | Measurement Level| log loss residuals for the predicted probabilities |
 | high priced | Numeric input | Measurement Level| whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages |
-| r | Numeric input | Measurement Level| log loss residuals for the predicted probabilities |
 
 
 * **Source of training data**: Home Mortgage Disclosure Act (HMDA) Aggregate Lending Data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data) [[Website]](https://www.ffiec.gov/hmda/history2.htm)
