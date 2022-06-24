@@ -14,6 +14,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 ### Basic Information
 * **Model date**: May, 2022
 * **Model version**: 1.0
+* **Model type**: Explainable Boosting Machine (EBM)
 * **License**: Apache
 * **Model implementation code**: TBD
 
@@ -44,13 +45,33 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 * **State any differences in columns between training and test data**: add text
 
 ### Model Details
-* **Columns used as inputs in the final model**: add text
+* **Columns used as inputs in the final model**:
+   * <pre><code>rem_x_names = ['property_value_std',
+               'no_intro_rate_period_std',
+               'loan_amount_std',
+               'income_std',
+               'conforming',
+               'intro_rate_period_std',
+               'debt_to_income_ratio_std',
+               'term_360']</code><pre> 
 * **Column(s) used as target(s) in the final model**: add text
 * **Type of models**: 
   * add text 
 * **Software used to implement the model**: add text
 * **Version of the modeling software**: TBD
-* **Hyperparameters or other settings of your model**: TBD
+* **Hyperparameters or other settings of your model**:
+   * <pre><code>rem_params = {'max_bins': 512,
+              'max_interaction_bins': 16,
+              'interactions': 10,
+              'outer_bags': 4,
+              'inner_bags': 0,
+              'learning_rate': 0.001,
+              'validation_size': 0.25,
+              'min_samples_leaf': 5,
+              'max_leaves': 5,
+              'early_stopping_rounds': 100.0,
+              'n_jobs': NTHREAD, 
+              'random_state': SEED}</code></pre>
 
 ### Quantitative Analysis
   * #### Week 1:
