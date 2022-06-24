@@ -43,7 +43,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 | intro rate period std | Numeric input | standardized introductory rate period for mortgage applicants |
 | property value std | Numeric input | Measurement Level| value of the mortgaged property |
 | income std | Numeric input | Measurement Level| standardized income for mortgage applicants |
-| debt to income ratio std | Numeric input | standardized debt-to-income ratio for mortgage applicants |
+| debt to income ratio std | Numeric input | Measurement Level | standardized debt-to-income ratio for mortgage applicants |
 | phat | Numeric input | Measurement Level| prediction probabilities of high-priced mortgage for mortgage applicants |
 | r | Numeric input | Measurement Level| log loss residuals for the predicted probabilities |
 | high priced | Numeric input | Measurement Level| whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages |
