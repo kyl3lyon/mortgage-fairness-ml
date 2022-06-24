@@ -19,11 +19,11 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 * **Model implementation code**: TBD
 
 ### Intended Use
-* **Primary intended uses**: add text
-* **Primary intended users**: add text
-* **Out-of-scope use cases**: add text
+* **Primary intended uses**: This research team aims to reduce discrimination and bias in the issuance of mortgage rates to applicants by providing transparency with explainable machine learning models.
+* **Primary intended users**: Students, professors, and members of the George Washington University may use this repository.
+* **Out-of-scope use cases**: Models that appear in this repository are for educational-purposes and should not be used to determine real-world credit worthiness.
 
-### Training Data
+## Training Data
 
 
 * **Data dictionary**:
