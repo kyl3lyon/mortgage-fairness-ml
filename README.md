@@ -50,10 +50,10 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 
 
 * **Source of training data**: Home Mortgage Disclosure Act (HMDA) Aggregate Lending Data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data) [[Website]](https://www.ffiec.gov/hmda/history2.htm)
-* **How training data was divided into training and validation data**: add num
-* **Number of rows in training and validation data**: 
-  * Training rows: add num
-  * Validation rows: add num
+* **How training data was divided into training and validation data**: 70% Training, 30% Validation 
+* **Number of rows in training and validation data**:
+  * Training rows: 112,237, columns=23
+  * Validation rows: 48,101, columns=23
 
 ### Evaluation Data
 
