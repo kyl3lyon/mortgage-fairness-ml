@@ -23,6 +23,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 * **Out-of-scope use cases**: Models that appear in this repository are for educational-purposes and should not be used to determine real-world credit worthiness.
 
 ## Training Data
+<img width="685" alt="image" src="https://user-images.githubusercontent.com/90147914/175756377-90b9da16-428b-4756-bc9f-92e920884447.png">
 
 
 * **Data dictionary**:
@@ -78,7 +79,11 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    ![Local Feature Importance](assignments/a02/a02_feature_importance.png)
    * #### Global Feature Importance Across Models  
    ![Global Feature Importance](assignments/a02/a02_fi.png)
-   * #### Partial Dependence
+   * #### Partial Dependence Plots 
+   ![Partial Dependence Plot (1/4)](assignments/a02/partial_dependence_plots/pdp1.png)  
+   ![Partial Dependence Plot (2/4)](assignments/a02/partial_dependence_plots/pdp2.png)  
+   ![Partial Dependence Plot (3/4)](assignments/a02/partial_dependence_plots/pdp3.png)  
+   ![Partial Dependence Plot (4/4)](assignments/a02/partial_dependence_plots/pdp4.png)  
    * #### Grid Search Results Plot  
    ![Grid Search](assignments/a03/grid_search_results.png)
    * #### Best AIR and AUC  
