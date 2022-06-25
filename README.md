@@ -52,14 +52,14 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
   * Training rows: 112,237, columns=23
   * Validation rows: 48,101, columns=23
 
-### Evaluation Data
+## Evaluation Data
 
-### Test Data
+## Test Data
 * **Source of test data**:  Home Mortgage Disclosure Act (HMDA) aggregate lending data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data)
 * **Number of rows in test data**: 19830
 * **State any differences in columns between training and test data**: All the columns are as the same as the training & validation data, except for that the target variable **high priced** column does not exist in this test data.
 
-### Model Details
+## Model Details
 * **Columns used as inputs in the final model**:
    * `property_value_std`, `no_intro_rate_period_std`, `loan_amount_std`, `income_std`, `conforming`, `intro_rate_period_std`, `debt_to_income_ratio_std`, `term_360`
 * **Column(s) used as target(s) in the final model**: "high_priced"
@@ -99,4 +99,4 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    * #### Residual Analysis
    ![Residual Analysis](assignments/a05/residual-analysis.png)
 
-### Ethical Considerations
+## Ethical Considerations
