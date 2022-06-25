@@ -13,7 +13,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 * **Model date**: May, 2022
 * **Model version**: 1.0
 * **License**: Apache
-* **Model implementation code**: TBD
+* **Model implementation code**: Responsible Machine Learning, Assignment 5, Summer 2022
 
 ### Intended Use
 * **Primary intended uses**: This research team aims to reduce discrimination and bias in the issuance of mortgage rates to applicants by providing transparency with explainable machine learning models.
