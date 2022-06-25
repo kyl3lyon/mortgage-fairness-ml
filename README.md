@@ -73,40 +73,25 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 * **Hyperparameters or other settings of your model**:
    * `'max_bins': 512`, `'max_interaction_bins': 16`, `'interactions': 10`, `'outer_bags': 4`, `'inner_bags': 0`, `'learning_rate': 0.001`, `'validation_size': 0.25`, `'min_samples_leaf': 5`, `'max_leaves': 5`, `'early_stopping_rounds': 100.0`, `'n_jobs': NTHREAD`, `'random_state': SEED`
 
-### Quantitative Analysis
-  * #### Week 1:
-
-
-  * #### Week 2:
-      * Local Feature Importance Across Models
-         * ![Local Feature Importance](assignments/a02/a02_feature_importance.png)
-      * Global Feature Importance Across Models
-         * ![Global Feature Importance](assignments/a02/a02_fi.png)
-      * Partial Dependence
-
-  * #### Week 3
-     * Grid Search Results Plot
-        * ![Grid Search](assignments/a03/grid_search_results.png)
-     * Best AIR and AUC
-        * ![Best AUC and AIR](assignments/a03/best_auc-air.png)
-     * Best Model Hyperparameters
-        * ![Best Parameters](assignments/a03/a03_best_parameters.png)
-     * Best Model Features
-        * ![Best Model Features](assignments/a03/a03_best_parameters.png)
-
-
-  * #### Week 4
-     * Model Extraction Attack
-        * ![Model Extraction Attack](assignments/a04/extraction_attack.png)
-     * Stolen Decision Tree Model
-        * ![Stolen Model](assignments/a04/decision_tree.png)
-     * Variable Importance: H20 Distributed Randomo Forest
-        * ![Variable Importance](assignments/a04/a04_variable_importance.png)
-
-
-  * #### Week 5
-
-
-  * #### Week 6
+## Quantitative Analysis
+   * #### Local Feature Importance Across Models  
+   ![Local Feature Importance](assignments/a02/a02_feature_importance.png)
+   * #### Global Feature Importance Across Models  
+   ![Global Feature Importance](assignments/a02/a02_fi.png)
+   * #### Partial Dependence
+   * #### Grid Search Results Plot  
+   ![Grid Search](assignments/a03/grid_search_results.png)
+   * #### Best AIR and AUC  
+   ![Best AUC and AIR](assignments/a03/best_auc-air.png)
+   * #### Best Model Hyperparameters  
+   ![Best Parameters](assignments/a03/a03_best_parameters.png)
+   * #### Best Model Features  
+   ![Best Model Features](assignments/a03/a03_best_parameters.png)
+   * #### Model Extraction Attack  
+   ![Model Extraction Attack](assignments/a04/extraction_attack.png)
+   * #### Stolen Decision Tree Model  
+   ![Stolen Model](assignments/a04/decision_tree.png)
+   * #### Variable Importance: H20 Distributed Randomo Forest  
+   ![Variable Importance](assignments/a04/a04_variable_importance.png)
 
 ### Ethical Considerations
