@@ -70,19 +70,19 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 
 ## Quantitative Analysis
    * #### Local Feature Importance Across Models  
-      Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable.  
+      Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable. [[Source]](https://machinelearningmastery.com/calculate-feature-importance-with-python/)  
    ![Local Feature Importance](assignments/a02/a02_feature_importance.png)
    * #### Global Feature Importance Across Models  
-      Global feature importance shows which features are globally the most important for the model. It average across all predictions we want to find the most important features and also quantify and rank this importance.
+      Global feature importance shows which features are globally the most important for the model. It average across all predictions we want to find the most important features and also quantify and rank this importance. [[Source]](https://www.knime.com/blog/understand-ml-model-global-feature-importance)
    ![Global Feature Importance](assignments/a02/a02_fi.png)
    * #### Partial Dependence Plots 
-      The partial dependence plot shows the marginal effect one or two features have on the predicted outcome of a machine learning model.
+      The partial dependence plot shows the marginal effect one or two features have on the predicted outcome of a machine learning model. [[Source]](https://christophm.github.io/interpretable-ml-book/pdp.html)
    ![Partial Dependence Plot (1/4)](assignments/a02/partial_dependence_plots/pdp1.png)  
    ![Partial Dependence Plot (2/4)](assignments/a02/partial_dependence_plots/pdp2.png)  
    ![Partial Dependence Plot (3/4)](assignments/a02/partial_dependence_plots/pdp3.png)  
    ![Partial Dependence Plot (4/4)](assignments/a02/partial_dependence_plots/pdp4.png)  
    * #### Grid Search Results Plot  
-      Grid search is a tuning technique that attempts to compute the optimum values of hyperparameters.
+      Grid search is a tuning technique that attempts to compute the optimum values of hyperparameters. [[Source]](https://medium.com/fintechexplained/what-is-grid-search-c01fe886ef0aa0)
    ![Grid Search](assignments/a03/grid_search_results.png)
    * #### Best AIR and AUC  
    ![Best AUC and AIR](assignments/a03/best_auc-air.png)
