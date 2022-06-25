@@ -5,7 +5,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 
 ### Authors
    * Kyle Lyon, `kylelyon@gwu.edu`
-   * Charles Bloomer, `insert email`
+   * Charles Bloomer, `charlesbloomer@gwu.edu`
    * Zeeshan Raza, `zraza10@gwu.edu`
    * Ziyad Maknojia, `zam@gwu.edu`
 
