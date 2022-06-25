@@ -52,8 +52,6 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
   * Training rows: 112,237, columns=23
   * Validation rows: 48,101, columns=23
 
-## Evaluation Data
-
 ## Test Data
 * **Source of test data**:  Home Mortgage Disclosure Act (HMDA) aggregate lending data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data)
 * **Number of rows in test data**: 19830
