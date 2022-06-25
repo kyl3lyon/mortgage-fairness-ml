@@ -1,15 +1,13 @@
 # GWU_Responsible_Machine_Learning
 Group 3, the authors of this repository, spent seven weeks developing interpretable machine learning models during Summer 2022 in Professor Patrick Hall's Responsible Machine Learning course. The objective of our project is to predict the probability of applicants being charged a higher rate than others for mortgages using the Home Mortgage Disclosure Act's historic mortgage reporting data. To avoid the impetuous of deploying black-box machine learning models into social populaces that can be adversely affected by bias, our group strived to develop explainable and interpretable predictive models that improve trust and encourage ethical decisions. 
-
-## Authors
-
-* **Person or organization developing model**:
-  * Kyle Lyon, `kylelyon@gwu.edu`
-  * Charles Bloomer, `insert email`
-  * Zeeshan Raza, `zraza10@gwu.edu`
-  * Ziyad Maknojia, `zam@gwu.edu`
   
 ## Model Details
+
+### Authors
+   * Kyle Lyon, `kylelyon@gwu.edu`
+   * Charles Bloomer, `insert email`
+   * Zeeshan Raza, `zraza10@gwu.edu`
+   * Ziyad Maknojia, `zam@gwu.edu`
 
 ### Basic Information
 * **Model date**: May, 2022
