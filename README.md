@@ -28,7 +28,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 * **Data dictionary**:
 
 | Name | Modeling Role | Measurement Level| Description|
-| ---- | ------------- | ---------------- | ---------- |
+| :----: | :-------------: | :----------------: | :----------: |
 | black | Binary numeric input | binary | whether the borrower is Black (1) or not (0)|
 | asian | Binary numeric input | binary | whether the borrower is Asian (1) or not (0)|
 | white | Binary numeric input | binary | whether the borrower is White (1) or not (0)|
