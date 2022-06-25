@@ -93,5 +93,9 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    ![Stolen Model](assignments/a04/decision_tree.png)
    * #### Variable Importance: H20 Distributed Randomo Forest  
    ![Variable Importance](assignments/a04/a04_variable_importance.png)
+   * #### Sensitivity Analysis: Stress Testing  
+   ![Sensitivity Analysis](assignments/a05/sensitivity-analysis.png)
+   * #### Residual Analysis
+   ![Residual Analysis](assignments/a05/residual-analysis.png)
 
 ### Ethical Considerations
