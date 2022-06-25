@@ -58,7 +58,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 ### Evaluation Data
 
 ### Test Data
-* **Source of test data**: add text
+* **Source of test data**:  Home Mortgage Disclosure Act (HMDA) aggregate lending data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data)
 * **Number of rows in test data**: add num
 * **State any differences in columns between training and test data**: add text
 
