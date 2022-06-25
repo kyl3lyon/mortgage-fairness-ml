@@ -69,7 +69,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 * **Type of models**: 
   * Explainable Boosting Machine (EBM)
   * Decision Tree 
-* **Software used to implement the model**: 3.6.9, [InterpretML](https://github.com/interpretml/interpret) v0.2.5.
+* **Software used to implement the model**: Python 3.6.9, [InterpretML](https://github.com/interpretml/interpret) v0.2.5.
 * **Hyperparameters or other settings of your model**:
    * `'max_bins': 512`, `'max_interaction_bins': 16`, `'interactions': 10`, `'outer_bags': 4`, `'inner_bags': 0`, `'learning_rate': 0.001`, `'validation_size': 0.25`, `'min_samples_leaf': 5`, `'max_leaves': 5`, `'early_stopping_rounds': 100.0`, `'n_jobs': NTHREAD`, `'random_state': SEED`
 
