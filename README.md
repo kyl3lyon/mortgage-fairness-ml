@@ -29,24 +29,24 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
-| black | Binary numeric input | Measurement Level| whether the borrower is Black (1) or not (0)|
-| asian | Binary numeric input | Measurement Level| whether the borrower is Asian (1) or not (0)|
-| white | Binary numeric input | Measurement Level| whether the borrower is White (1) or not (0)|
-| male | Binary numeric input | Measurement Level| whether the borrower is male (1) or not (0) |
-| female | Binary numeric input | Measurement Level| whether the borrower is female (1) or not (0)|
-| term 360 | Binary numeric input | Measurement Level| whether the mortgage is a standard 360 month mortgage (1) or a different type of mortgage (0)|
-| conforming | Binary numeric input | Measurement Level| whether the mortgage conforms to normal standards (1), or whether the loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc.|
-| debt to income ratio missing | Binary numeric input | Measurement Level| missing marker (1) for debt to income ratio std|
-| loan amount std | Numeric input | Measurement Level| standardized amount of the mortgage for applicants|
-| loan to value ratio std | Numeric input | Measurement Level| ratio of the mortgage size to the value of the property for mortgage applicants|
-| no intro rate period std | Binary numeric input | Measurement Level| whether or not a mortgage does not include an introductory rate period |
-| intro rate period std | Numeric input | Measurement Level | standardized introductory rate period for mortgage applicants |
-| property value std | Numeric input | Measurement Level| value of the mortgaged property |
-| income std | Numeric input | Measurement Level| standardized income for mortgage applicants |
-| debt to income ratio std | Numeric input | Measurement Level | standardized debt-to-income ratio for mortgage applicants |
-| phat | Numeric input | Measurement Level| prediction probabilities of high-priced mortgage for mortgage applicants |
-| r | Numeric input | Measurement Level| log loss residuals for the predicted probabilities |
-| high priced | Numeric input | Measurement Level| whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages |
+| black | Binary numeric input | binary | whether the borrower is Black (1) or not (0)|
+| asian | Binary numeric input | binary | whether the borrower is Asian (1) or not (0)|
+| white | Binary numeric input | binary | whether the borrower is White (1) or not (0)|
+| male | Binary numeric input | binary | whether the borrower is male (1) or not (0) |
+| female | Binary numeric input | binary | whether the borrower is female (1) or not (0)|
+| term 360 | Binary numeric input | binary | whether the mortgage is a standard 360 month mortgage (1) or a different type of mortgage (0)|
+| conforming | Binary numeric input | binary | whether the mortgage conforms to normal standards (1), or whether the loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc.|
+| debt to income ratio missing | Binary numeric input | binary | missing marker (1) for debt to income ratio std|
+| loan amount std | Numeric input | int | standardized amount of the mortgage for applicants|
+| loan to value ratio std | Numeric input | float | ratio of the mortgage size to the value of the property for mortgage applicants|
+| no intro rate period std | Binary numeric input | binary | whether or not a mortgage does not include an introductory rate period |
+| intro rate period std | Numeric input | float | standardized introductory rate period for mortgage applicants |
+| property value std | Numeric input | int | value of the mortgaged property |
+| income std | Numeric input | int | standardized income for mortgage applicants |
+| debt to income ratio std | Numeric input | float | standardized debt-to-income ratio for mortgage applicants |
+| phat | Numeric input | float | prediction probabilities of high-priced mortgage for mortgage applicants |
+| r | Numeric input | int | log loss residuals for the predicted probabilities |
+| high priced | Numeric input | binary| whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages |
 
 
 * **Source of training data**: Home Mortgage Disclosure Act (HMDA) Aggregate Lending Data [[Source]](https://github.com/jphall663/GWU_rml/tree/master/assignments/data) [[Website]](https://www.ffiec.gov/hmda/history2.htm)
