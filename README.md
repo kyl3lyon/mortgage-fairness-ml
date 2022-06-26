@@ -11,11 +11,14 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 
 ### Basic Information
 * **Model date**: May, 2022
-* **Model version**: 1.0
+* **Model version**: 2.0
 * **License**: Apache
 * **Model implementation code**: Responsible Machine Learning, Assignment 5, Summer 2022
 
-### Intended Use
+### Workflow
+   * First, we compared three models, then we select EBM as the best model, and then we worked on it with bias testing, red-teaming, and model debugging.
+
+## Intended Use
 * **Primary intended uses**: This research team aims to reduce discrimination and bias in the issuance of mortgage rates to applicants by providing transparency with explainable machine learning models.
 * **Primary intended users**: Students, professors, and members of the George Washington University may use this repository.
 * **Out-of-scope use cases**: Models that appear in this repository are for educational-purposes and should not be used to determine real-world credit worthiness.
@@ -69,6 +72,16 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    * `'max_bins': 512`, `'max_interaction_bins': 16`, `'interactions': 10`, `'outer_bags': 4`, `'inner_bags': 0`, `'learning_rate': 0.001`, `'validation_size': 0.25`, `'min_samples_leaf': 5`, `'max_leaves': 5`, `'early_stopping_rounds': 100.0`, `'n_jobs': NTHREAD`, `'random_state': SEED`
 
 ## Quantitative Analysis
+| Partition | AUC |
+| :--------:|:---:|
+| Valid | 0.7949 |
+
+| Compare v. Control  | AIR |
+| :-----------------: | :---: |
+| Asian people vs. White people | 1.152 | 
+|Black people vs. White people| 0.814 |
+|Females vs. Males | 0.956 |
+
    * #### Local Feature Importance Across Models  
       Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable. [[Source]](https://machinelearningmastery.com/calculate-feature-importance-with-python/)  
    ![Local Feature Importance](assignments/a02/a02_feature_importance.png)
@@ -88,8 +101,6 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    ![Best AUC and AIR](assignments/a03/best_auc-air.png)
    * #### Best Model Hyperparameters  
    ![Best Parameters](assignments/a03/a03_best_parameters.png)
-   * #### Best Model Features  
-   ![Best Model Features](assignments/a03/a03_best_parameters.png)
    * #### Model Extraction Attack  
    ![Model Extraction Attack](assignments/a04/extraction_attack.png)
    * #### Stolen Decision Tree Model  
