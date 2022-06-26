@@ -68,8 +68,6 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
   * Explainable Boosting Machine (EBM)
   * Decision Tree 
 * **Software used to implement the model**: Python 3.6.9, [InterpretML](https://github.com/interpretml/interpret) v0.2.5.
-* **Hyperparameters or other settings of your model**:
-   * `'max_bins': 512`, `'max_interaction_bins': 16`, `'interactions': 10`, `'outer_bags': 4`, `'inner_bags': 0`, `'learning_rate': 0.001`, `'validation_size': 0.25`, `'min_samples_leaf': 5`, `'max_leaves': 5`, `'early_stopping_rounds': 100.0`, `'n_jobs': NTHREAD`, `'random_state': SEED`
 
 ## Quantitative Analysis
 | Partition | AUC |
@@ -114,5 +112,5 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 
 ## Ethical Considerations
    * Like many other models, our machine learning model's accuracy is susceptible to shifts in the real-world, and in this particular case, economic shifts (e.g. recession).
-   * Analysis that contains racial data are usually susceptible to legalities such as affirmative action. Data pre-processing should be scrutinized for legal issues.
+   * Analysis that contains racial data are usually susceptible to legalities such as disparate treatment. Data pre-processing should be scrutinized for legal issues.
    * Bias testing and remediation ensures models are assesing what they are supposed to be testing and nothing is intefering with results. Failure to implement bias testing and remediation can cause discrimination and societal harm.
