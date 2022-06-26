@@ -93,7 +93,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    ![Partial Dependence Plot (3/4)](assignments/a02/partial_dependence_plots/pdp3.png)  
    ![Partial Dependence Plot (4/4)](assignments/a02/partial_dependence_plots/pdp4.png)  
    * #### Grid Search Results Plot  
-      Grid search is a tuning technique that attempts to compute the optimum values of hyperparameters. [[Source]](https://medium.com/fintechexplained/what-is-grid-search-c01fe886ef0aa0)
+      We used Grid Search to find a model with good accuracy and improved fairness. Grid search is a tuning technique that attempts to compute the optimum values of hyperparameters. [[Source]](https://medium.com/fintechexplained/what-is-grid-search-c01fe886ef0aa0)
    ![Grid Search](assignments/a03/grid_search_results.png)
    * #### Best AIR and AUC  
    ![Best AUC and AIR](assignments/a03/best_auc-air.png)
