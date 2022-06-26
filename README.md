@@ -114,3 +114,4 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
    * Like many other models, our machine learning model's accuracy is susceptible to shifts in the real-world, and in this particular case, economic shifts (e.g. recession).
    * Analysis that contains racial data are usually susceptible to legalities such as disparate treatment. Data pre-processing should be scrutinized for legal issues.
    * Bias testing and remediation ensures models are assesing what they are supposed to be testing and nothing is intefering with results. Failure to implement bias testing and remediation can cause discrimination and societal harm.
+   * Although this model was tested and remediated for bias, there is much more to bias than models and data, and this model should be monitored for bias issues moving forward.
