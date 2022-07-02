@@ -12,7 +12,7 @@ Group 3, the authors of this repository, spent seven weeks developing interpreta
 ### Basic Information
 * **Model date**: May, 2022
 * **Model version**: 2.0
-* **License**: Apache
+* **License**: Apache 2.0
 * **Model implementation code**: Responsible Machine Learning, Assignment 5, Summer 2022
 
 ### Workflow
